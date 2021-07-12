@@ -1,0 +1,4 @@
+adb -s emulator-5554 logcat>d:\log.txt -s Unity
+-s表示选择的意思
+emulator-5554是设备名称，使用adb devices可以看到，如果看不到模拟器触发开发者模式，然后打开USB调试
+Unity表示unity相关的日志
